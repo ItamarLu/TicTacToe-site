@@ -7,7 +7,7 @@ body {
   border: 3px solid purple;
   width: fit-content;
   border-radius: 5px;
-  padding: 10px 10px 50px 10px;
+  padding: 10px;
 }
 
 .line {
@@ -22,5 +22,16 @@ body {
 }
 
 .btn:hover {
+  background: darkgray;
+}
+
+#btn-restart {
+  margin: 20px 0px 10px 0px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid purple;
+}
+
+#btn-restart:hover {
   background: darkgray;
 }
