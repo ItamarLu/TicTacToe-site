@@ -1,10 +1,12 @@
 body {
-  background: gray;
+  background: linear-gradient(to right, #202060, #602080);
+  font-family: 'Orbitron', sans-serif;
 }
 
 #game-box {
+  background:linear-gradient(to right, #602080, #202060 ); ;
   margin: 0 auto;
-  border: 3px solid purple;
+  border: 3px solid black;
   width: fit-content;
   border-radius: 5px;
   padding: 10px;
@@ -15,23 +17,46 @@ body {
 }
 
 .btn {
+  background: #aaa5c4;
   font-size: 100px;
+  color: darkred;
   width: 150px;
   height: 150px;
-  border: 2px solid purple;
+  border: 2px solid black;
+  font-family: inherit;
 }
 
 .btn:hover {
-  background: darkgray;
+  background: #7851a9;
+}
+
+#bottom-btns {
+  margin-top: 10px;
+  border-top: 3px solid black; ;
+  display: flex;
+  justify-content:space-evenly;
 }
 
 #btn-restart {
   margin: 20px 0px 10px 0px;
   padding: 10px 20px;
   border-radius: 5px;
-  border: 2px solid purple;
+  border: 2px solid black;
+  font-family: inherit;
+  font-size: larger;
+  background: #aaa5c4;
 }
 
 #btn-restart:hover {
-  background: darkgray;
+  background: #7851a9;
+}
+
+.btn-xo {
+  margin: 20px 0px 10px 0px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-family: inherit;
+  font-size: larger;
+  background: #aaa5c4;
 }
