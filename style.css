@@ -20,6 +20,7 @@ body {
   background: #aaa5c4;
   font-size: 100px;
   color: darkred;
+  font-weight: bold;
   width: 150px;
   height: 150px;
   border: 2px solid black;
@@ -45,6 +46,7 @@ body {
   font-family: inherit;
   font-size: larger;
   background: #aaa5c4;
+  font-weight: bold;
 }
 
 #btn-restart:hover {
@@ -59,4 +61,5 @@ body {
   font-family: inherit;
   font-size: larger;
   background: #aaa5c4;
+  font-weight: bold;
 }

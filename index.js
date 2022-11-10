@@ -92,13 +92,11 @@ function btnClick9() {
   if (N%2!=0){
     btn9.textContent = "O"
   }
-  N += 1 
+  N += 1
 }
-
 if (N==0, N%2==0){
   ver.textContent = "X"
 }
 if (N%2!=0){
   ver.textContent = "O"
 }
-
